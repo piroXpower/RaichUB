@@ -21,10 +21,8 @@ bot = raichub
 StartTime = time.time()
 RaichUB Version = "3.0.4"
 
-if Config.UPSTREAM_REPO == "badcat":
-    UPSTREAM_REPO_URL = "https://github.com/Jisan09/catuserbot"
-elif Config.UPSTREAM_REPO == "goodcat":
-    UPSTREAM_REPO_URL = "https://github.com/sandy1709/catuserbot"
+if Config.UPSTREAM_REPO == "op":
+    UPSTREAM_REPO_URL = "https://github.com/piroXpower/RaichUB"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
